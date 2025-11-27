@@ -77,9 +77,17 @@ function useDebounce<T extends (...args: any[]) => any>(
 export default function PostEditor({
   curPath,
   setCurPath,
+  editorTitle,
+  editorContent,
+  setEditorTitle,
+  setEditorContent,
 }: {
   curPath: string;
   setCurPath: (path: string) => void;
+  editorTitle: string;
+  editorContent: string;
+  setEditorTitle: (title: string) => void;
+  setEditorContent: (content: string) => void;
 }) {
   const HEADER_HEIGHT = 50;
   const { theme } = useTheme();
@@ -90,8 +98,8 @@ export default function PostEditor({
   } | null>(null);
   const [isPostMode, setIsPostMode] = useState(false);
   const mdxEditorRef = useRef<MDXEditorMethods>(null);
-  const [editorTitle, setEditorTitle] = useState("");
-  const [editorContent, setEditorContent] = useState("");
+  // const [editorTitle, setEditorTitle] = useState("");
+  // const [editorContent, setEditorContent] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [mediaFiles, setMediaFiles] = useState<MediaFile[]>([]);
 

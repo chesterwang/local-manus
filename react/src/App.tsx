@@ -86,7 +86,15 @@ function Home() {
         </div>
       )}
       <div className="w-[60%] h-screen px-5">
-        {!!curPath && <PostEditor curPath={curPath} setCurPath={setCurPath} />}
+        {!!curPath && 
+        <PostEditor 
+          curPath={curPath} 
+          setCurPath={setCurPath} 
+          editorTitle={editorTitle}
+          editorContent={editorContent}
+          setEditorTitle={setEditorTitle}
+          setEditorContent={setEditorContent}
+          />}
       </div>
       <div className="flex-1 flex-grow relative px-4  bg-sidebar">
         <ChatInterface

@@ -1,3 +1,20 @@
+
+# 我的笔记
+
+运行命令如下
+
+```bash
+cd react && npm i
+cd react && npm run build
+cd react && npm run dev
+cd server && python main.py
+```
+
+![alt text](image.png)
+
+该项目原始仓库没怎么维护，功能并不是很丰富，很多功能也没有实现。
+
+
 # 🧠 LocalManus – Your AI Marketing Agent & Copilot
 
 Meet **Jaaz**, your all-in-one AI-powered marketing assistant. A fully **local** **desktop app** that runs for **free** — no cloud lock-in, no monthly fees. Think of it as the "Cursor" for marketers and content creators: an always-on team that helps you 10x your productivity and supercharge product growth 📈
