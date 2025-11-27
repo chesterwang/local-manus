@@ -10,7 +10,11 @@ cd react && npm run dev
 cd server && python main.py
 ```
 
+![alt text](image-1.png)
+
 ![alt text](image.png)
+
+![alt text](image-2.png)
 
 该项目原始仓库没怎么维护，功能并不是很丰富，很多功能也没有实现。
 
